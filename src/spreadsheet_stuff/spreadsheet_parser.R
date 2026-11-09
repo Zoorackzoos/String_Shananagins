@@ -1,3 +1,4 @@
+# R fucking sucks. don't use it.
 library(readr)
 library(dplyr)
 library(tidyr)
