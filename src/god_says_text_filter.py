@@ -19,7 +19,7 @@ class RandomizedIndicator(str, Enum):
     ADJECTIVE = "randomized_adjective"
     ADVERB = "randomized_adverb"
     PRONOUN = "randomized_pronoun"
-    PREPOSITIONS = "randomized_prepostions"  # Kept to match the requested API spelling.
+    PREPOSITIONS = "randomized_prepositions"  # Kept to match the requested API spelling.
     CONJUNCTION = "randomized_conjunction"
     DETERMINER = "randomized_determinator"  # Kept to match the requested API spelling.
     INTERJECTION = "randomized_interjections"
@@ -32,7 +32,7 @@ randomized_verb = RandomizedIndicator.VERB
 randomized_adjective = RandomizedIndicator.ADJECTIVE
 randomized_adverb = RandomizedIndicator.ADVERB
 randomized_pronoun = RandomizedIndicator.PRONOUN
-randomized_prepostions = RandomizedIndicator.PREPOSITIONS
+randomized_prepositions = RandomizedIndicator.PREPOSITIONS
 randomized_conjunction = RandomizedIndicator.CONJUNCTION
 randomized_determinator = RandomizedIndicator.DETERMINER
 randomized_interjections = RandomizedIndicator.INTERJECTION
@@ -40,7 +40,7 @@ randomized_word = RandomizedIndicator.WORD
 
 # Sensible aliases for common spelling/singular variations in templates.
 randomized_adjetive = randomized_adjective
-randomized_prepositions = randomized_prepostions
+randomized_prepositions = randomized_prepositions
 randomized_determiner = randomized_determinator
 randomized_interjection = randomized_interjections
 
