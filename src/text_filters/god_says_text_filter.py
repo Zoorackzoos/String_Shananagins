@@ -39,8 +39,7 @@ randomized_interjections = RandomizedIndicator.INTERJECTION
 randomized_word = RandomizedIndicator.WORD
 
 # Sensible aliases for common spelling/singular variations in templates.
-randomized_adjective = randomized_adjective
-randomized_prepositions = randomized_prepositions
+randomized_prepostions = randomized_prepositions
 randomized_determiner = randomized_determinator
 randomized_interjection = randomized_interjections
 

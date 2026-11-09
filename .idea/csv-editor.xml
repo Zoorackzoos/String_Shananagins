@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\sheets\kaggle_words_spreadsheets\plural-nouns.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

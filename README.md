@@ -44,6 +44,24 @@ The API accepts the requested spellings `randomized_prepostions` and
 `randomized_determinator`, plus correctly spelled aliases. It also accepts the
 singular `randomized_interjection` used in the example.
 
+## Moby Part-of-Speech data
+
+Convert the supplied `sheets/grady_ward_sheet/mobypos.txt` into the generator's
+JSON word-bank format with Python (no R or additional editor needed):
+
+```powershell
+python src/universal_functions/convert_weird_txt_to_csv_and_json.py sheets/grady_ward_sheet/mobypos.txt sheets/grady_ward_sheet/moby_word_bank.json
+```
+
+The parser reads one line at a time. Multiple Moby tags are preserved: for
+example, `zymolysis\\NA` is included under both nouns and adjectives. Plurals
+and noun phrases feed `randomized_noun`; all three verb tags feed
+`randomized_verb`; definite and indefinite articles feed
+`randomized_determinator`; nominatives feed `randomized_pronoun`.
+
+To also create an inspection-friendly raw table, add `--records-csv mobypos.csv`
+or `--records-tsv mobypos.tsv` to that command.
+
 Run its tests from the project folder:
 
 ```powershell
