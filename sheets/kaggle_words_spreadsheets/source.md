@@ -1,0 +1,1 @@
+https://www.kaggle.com/datasets/thedevastator/common-english-parts-of-speech/data

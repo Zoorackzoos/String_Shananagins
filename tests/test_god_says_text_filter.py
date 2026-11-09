@@ -5,7 +5,7 @@ import unittest
 
 sys.path.insert(0, str(Path(__file__).parents[1] / "src"))
 
-from god_says_text_filter import (
+from text_filters.god_says_text_filter import (
     get_god_says_string_based_on_randomized_enum_indicators,
     randomized_noun,
     randomized_verb,

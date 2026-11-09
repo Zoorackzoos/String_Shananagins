@@ -14,10 +14,10 @@ from typing import Mapping, Sequence
 
 
 class RandomizedIndicator(str, Enum):
-    NOUN = "randomized_noun"
-    VERB = "randomized_verb"
-    ADJECTIVE = "randomized_adjective"
-    ADVERB = "randomized_adverb"
+    NOUN = "randomized_noun" # ✅ ✅
+    VERB = "randomized_verb" # ✅
+    ADJECTIVE = "randomized_adjective" # ✅
+    ADVERB = "randomized_adverb" # ✅
     PRONOUN = "randomized_pronoun"
     PREPOSITIONS = "randomized_prepositions"
     CONJUNCTION = "randomized_conjunction"
